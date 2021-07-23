@@ -1,0 +1,400 @@
+#page-auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.nav {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 10%;
+}
+
+.logo-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+}
+
+.logo-monetus {
+        margin-top: 20px;
+        width: 70%;
+        padding: 0 25px;
+        cursor: pointer;
+}
+
+.nav-item {
+        margin-top: 40px;
+        width: 100%;
+        cursor: pointer;
+        box-shadow: 0px 8px 20px -2px rgb(43 37 63 / 10%);
+}
+
+main {
+        background-color: #E5E5E5;
+        display: flex;
+        width: 60%;
+        height: 100vh;
+        flex-direction: column;
+        border: 1px solid #E5E5E5;
+        border-radius: 24px 0 0 0;
+        padding: 0 20px;
+}
+
+.header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 157px;
+        height: 28px;
+        margin-top: 32px;
+        padding: 0 20px;
+}
+
+.header-icon {
+        margin-right: 8px;
+}
+
+.header-title {
+        font-family: 'Roboto', sans-serif;;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -0.0075em;
+}
+
+.search {
+        display: flex;
+        padding: 0 20px;
+        margin-top: 32px;
+}
+
+input {
+        background: #FFFFFF;
+        border: 1px solid #E1E0E7;
+        border-radius: 8px;
+        padding: 8px 16px;
+}
+
+input:focus-visible{
+        outline: none;
+}
+
+.btn-search {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px;
+        background: #0047BB;
+        border-radius: 8px;
+        cursor: pointer;
+        border: 0;
+        transition: filter 0.2s;
+}
+
+.btn-search:hover {
+        filter: brightness(0.9);
+}
+
+.content {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(222, 222, 231, 0.4);
+        border-radius: 8px;
+        margin: 24px 20px 0;
+}
+
+.info-alert {
+        display: flex;
+        flex-direction: column;
+}
+
+.info-alert-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 2px;
+        letter-spacing: -0.005em;
+        color: #6e6e6e
+}
+
+.graph-infos {
+        padding: 10px 20px;
+}
+
+.infos {
+        display: flex;
+        justify-content: space-between;
+}
+
+.ticket-company {
+        display: flex;
+        align-items: center;
+        height: 80px;
+}
+
+.add-favorite:hover {
+        cursor: pointer;
+        opacity: 0.8;
+}
+
+.ticket-company div {
+        margin-left: 10px;
+}
+
+.company-symbol{
+        font-family: 'Roboto', sans-serif;;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 2px;
+        letter-spacing: -0.005em;
+}
+
+.company-name{
+        font-family: 'Roboto', sans-serif;;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 2px;
+        letter-spacing: -0.005em;
+        color: #6e6e6e
+}
+
+.stock-numbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;;
+        font-style: normal;
+        font-size: 16px;
+        text-align: right;
+        letter-spacing: -0.0075em;
+        color: #14171A;
+        height: 80px;
+}
+
+.stock-price{
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+}
+
+.stock-price p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        margin: 0 0 2px 5px;
+}
+
+.subtitles {
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        color: #14171A;
+        margin: 20px 0 0 20px;
+        justify-content: flex-start;
+}
+
+.subtitles p{
+        margin: 20px 8px;
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+}
+
+.recents-area {
+        display: flex;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 0 20px;
+}
+
+.recents-list {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        margin: 20px;
+        height: 80%;
+        width: 35%;
+        background: #FFFFFF;
+        border-radius: 8px;
+        justify-content: space-between;
+}
+
+.recents-list p{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+
+.recents-list:hover{
+        box-shadow: 0px 8px 20px -2px rgb(43 37 63 / 10%);
+}
+
+.recentstock-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.stock-logo {
+        margin: 0 5px;
+        width: 25%;
+        height: 25%;
+}
+
+.recentstock-numbers {
+        display: flex;
+        align-content: center;
+        align-items: center;
+}
+
+.recentstock-numbers p {
+        margin-right: 5px;
+}
+
+.user-area {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+}
+
+.log-in {
+        margin: 20px 10px 0 10px;
+        height: 35px;
+        border-radius: 8px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        background: #ea4335;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: 0;
+        transition: filter 0.2s;
+}
+
+.log-in:hover {
+        filter: brightness(0.9);
+}
+
+.google-icon{
+        margin-right: 8px;    
+}
+
+.favorites-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+        padding: 0 20px;
+        margin-top: 15px;
+}
+
+.favorite {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: black;
+        margin: 5px;
+        padding: 0 10px;
+        height: 80px;
+        background: #FFFFFF;
+        box-shadow: 0px 8px 20px -2px rgb(43 37 63 / 10%);
+        border-radius: 8px;
+        justify-content: space-between;
+        width: 80%
+}
+
+.favorite p{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+}
+
+.favoritestock-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.favoritestock-numbers {
+        display: flex;
+        align-content: center;
+        align-items: center;
+}
+
+.favoritestock-numbers p {
+        margin-right: 5px;
+}
+
+.user-info {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+}
+
+.user-info img {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+}
+
+.user-info span {
+        margin-left: 8px;
+        font-family: 'Roboto', sans-serif;;
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        color: #14171A;
+}
+
+.footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+}
+
+.footer p{
+        font-family: 'Roboto', sans-serif;;
+        font-size: 12px;
+        letter-spacing: -0.005em;
+        color: #6e6e6e;
+        margin-top: 30px;
+}
+
+.links {
+        display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.links span{
+        font-family: 'Roboto', sans-serif;;
+        font-size: 16px;
+        letter-spacing: -0.005em;
+}
