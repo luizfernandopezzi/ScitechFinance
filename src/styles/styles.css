@@ -376,6 +376,7 @@ input:focus-visible{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
         padding-bottom: 30px;
 }
 
@@ -384,7 +385,6 @@ input:focus-visible{
         font-size: 12px;
         letter-spacing: -0.005em;
         color: #6e6e6e;
-        margin-top: 30px;
 }
 
 .links {
